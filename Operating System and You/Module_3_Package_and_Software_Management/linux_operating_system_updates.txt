@@ -1,0 +1,6 @@
+1) what what kernel version we have 
+    uname -r --> kernel release
+
+2) update kernel and apps
+    sudo apt update
+    sudo apt full-upgrade

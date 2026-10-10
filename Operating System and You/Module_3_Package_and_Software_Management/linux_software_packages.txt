@@ -1,0 +1,12 @@
+1) install deb file 
+    sudo dpkg -i atom-amd64.deb
+
+2) how to remove a package 
+    sudo dpkg -r anydesk
+
+3) list dpkg installed in machine with 'dpkg -l'
+    dpkg -l
+    dpkg -l | grep atom
+
+4) how to check a status of package, we can use 'dpkg -s'
+    dpkg -s --> -s for status

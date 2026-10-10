@@ -1,0 +1,2 @@
+1) run check disk in linux 
+    sudo fsck /dev/sdb

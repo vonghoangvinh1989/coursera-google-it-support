@@ -1,0 +1,8 @@
+1) how to search within directories
+    ls 'C:\Program Files\' -Recurse -Filter *.exe --> search for executable file in 
+a directory
+        note: '-Recurse' to use for searching in all folder and sub-folder of it
+                -Filter to filter the results for file names that match a pattern
+
+
+

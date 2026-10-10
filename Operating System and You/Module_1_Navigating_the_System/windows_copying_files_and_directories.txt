@@ -1,0 +1,8 @@
+1) Copying files 
+    cp .\mycoolfile.txt ..\OneDrive\Desktop\
+
+2) Using wildcard to copy files
+    cp *.png ..\OneDrive\Desktop\
+
+3) Copy directory with its content using '-Recurse' and '-Verbose' for info
+    cp -Recurse -Verbose ".\Bird Pictures\" C:\Users\vongh\OneDrive\Desktop\

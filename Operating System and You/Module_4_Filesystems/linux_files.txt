@@ -1,0 +1,13 @@
+softlink -- file -- hdd
+hardlink -- inode -- inode table -- hdd 
+                                      |              
+file -------------------------------- |
+
+1) create soft link in linux 
+    ln -s important_file important_file_softlink
+
+2) create hard link in linux
+    ln important_file important_file_hardlink
+
+    
+

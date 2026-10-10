@@ -1,0 +1,16 @@
+1) view list of users has sudo priviledges
+    sudo cat /etc/sudoers
+
+2) go to root
+    sudo su - --> use sudo privileges to run su -, then enter a root login shell
+    sudo -i --> directly open a root login shell, generally cleaner than sudo su - 
+
+3) view all group
+    cat /etc/group --> view line 'sudo' to check which members have sudo
+
+4) view users info
+    cat /etc/passwd --> root:x:0:0:root:/root:/bin/bash
+        we can see 'user', x mean password was hashed, 0 user-id, 0 group-id 
+
+
+

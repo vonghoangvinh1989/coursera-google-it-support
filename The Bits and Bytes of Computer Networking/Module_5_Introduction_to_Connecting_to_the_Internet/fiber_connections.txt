@@ -1,0 +1,9 @@
+fiber: using light to transmit 1 and 0
+    FTTN: fiber to the neighborhood
+        serve certain amount of population, after that use copper or something
+    FTTB: fiber to the building
+        data delivery to an individual building, twisted pair use inside building
+    FTTH: fiber to the home
+        run to each individual residence
+
+    FTTB, FTTH: could be refered to FTTP (fiber to the premises)

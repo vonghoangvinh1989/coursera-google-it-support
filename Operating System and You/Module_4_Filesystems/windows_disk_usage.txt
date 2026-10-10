@@ -1,0 +1,2 @@
+Using disk management tool: diskmgmt.msc 
+

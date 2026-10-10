@@ -1,0 +1,4 @@
+ARP: address resolution protocol
+    a protocol used to discover the hardware address of a node with a certain ip address
+
+arp table: list of ip and mac associated with them

@@ -1,0 +1,16 @@
+1) Most of configuration store in /etc
+    sudo apt install vsftpd
+    sudo systemctl status vsftpd --> check status of service 'vsftpd'
+
+    lftp localhost --> using lftp to connect to localhost (in the same machine)
+
+2) Modify /etc/vsftpd.conf to allow anonymous connection 
+    anonymous_enable=YES
+
+    sudo systemctl reload vsftpd --> reload lai service (read configuration file) without
+stop and start service
+
+    lftp localhost --> it works
+
+3) search service running port 21 (vsftpd)
+    sudo ss -tlnp | grep :21 --> view network sockets

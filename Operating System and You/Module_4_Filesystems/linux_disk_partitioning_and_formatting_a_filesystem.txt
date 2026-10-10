@@ -1,0 +1,17 @@
+1) format using parted
+    sudo parted -l --> list info about disk and partition in linux
+
+    sudo parted /dev/sdb --> sdb here is our usb
+
+    print --> view the info of this disk again
+
+    mklabel gpt --> using gpt partition table
+
+    mkpart primary ext4 1Mib 5GiB --> create a partition 'primary' with filesystem 'ext4',
+    start at position 1MiB and end at 5GiB
+    print
+
+2) format using 'mkfs'
+    sudo mkfs -t ext4 /dev/sdb1 --> format partition with an ext4 file system (-t: type)
+
+

@@ -1,0 +1,6 @@
+In linux, processes has parent-child relationship, any process you want have their
+related process 
+
+When you startup your computer, the kernel creates a process called 'init', which has
+a PID of 1, init start other process make linux can run
+

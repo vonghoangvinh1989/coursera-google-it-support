@@ -1,0 +1,8 @@
+1) Open powershell
+    putty.exe -ssh vonghoangvinh@172.16.1.209 22
+
+2) Configure remote settings in windows
+    Win + R --> type 'sysdm.cpl' to open the settings 
+
+Note:
+    mstsc.exe --> create rdp connections to remote computers

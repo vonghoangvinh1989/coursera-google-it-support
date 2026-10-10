@@ -1,0 +1,6 @@
+1) Get process by name 
+    Get-Process -Name "totally_not_malicious"
+    Get-Process -Name "*razzle*"
+
+2) Kill the process by id
+    taskkill /f /pid <process_id>

@@ -1,0 +1,6 @@
+1) copy file between linux machine with scp
+    scp myfile.txt vonghoangvinh@172.16.1.209:~ --> copy file 'myfile.txt' to
+linux machine with ip 172.16.1.209 with user 'vonghoangvinh', need to enter user password 
+to copy the file 
+
+    

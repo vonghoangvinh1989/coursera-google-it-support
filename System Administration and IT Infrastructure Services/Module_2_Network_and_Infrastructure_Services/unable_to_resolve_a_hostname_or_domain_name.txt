@@ -1,0 +1,2 @@
+when dns query is performed, computer will check the 'host' file in the machine
+first before it goes out to contact dns server

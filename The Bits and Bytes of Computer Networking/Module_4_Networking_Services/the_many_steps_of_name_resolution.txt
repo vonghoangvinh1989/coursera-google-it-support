@@ -1,0 +1,17 @@
+1) Five primary types of DNS servers
+    + Caching name servers
+    + Recursive name servers
+    + Root name servers
+        13 root servers
+        .com
+    + TLD name servers (top level domain)
+        weather.com
+    + Authoritative name servers
+
+    caching and recursive name servers: store known domain name lookups for a certain
+amount of time
+    recursive name servers: performs full dns resolution requests
+
+note:
+    anycast: a technique that's used to route traffic to different destinations
+depending on factors like location, congestion, or link health

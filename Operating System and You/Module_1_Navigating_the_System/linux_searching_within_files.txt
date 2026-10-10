@@ -1,0 +1,7 @@
+1) search word 'cow' with grep in file content
+    grep cow farm_animals.txt
+    grep cow *_animals.txt --> to search in multiple files
+    
+    note:
+        grep -r cow . --> search 'cow' in all current directories with recursive
+

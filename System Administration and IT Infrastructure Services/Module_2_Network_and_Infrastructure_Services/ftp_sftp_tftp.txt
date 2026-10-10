@@ -1,0 +1,3 @@
+ftp: legacy, no encryption, work like ssh
+sftp: secure option of ftp
+tftp: trivial ftp, no encryption, no authentication

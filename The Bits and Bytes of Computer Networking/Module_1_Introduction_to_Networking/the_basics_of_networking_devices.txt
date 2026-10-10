@@ -1,0 +1,11 @@
+cables
+    copper: 
+        copper pairs wire
+        send bits/byte by changing voltage between ranges
+        system at the receiving end is able to intepret
+        Ex: Cat5 (old), 
+            Cat5e (control crosstalk), 
+            Cat6 (more control crosstalk, expensive, transfer data faster)
+    fiber
+        optical fibers, transport beam of lights
+

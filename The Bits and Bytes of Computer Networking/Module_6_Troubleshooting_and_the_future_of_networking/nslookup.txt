@@ -1,0 +1,12 @@
+a) Command
+nslookup google.com --> return a record to see the public ip address of domain
+
+b) Nslookup Interactive mode
+nslookup
+coursera.org
+server 8.8.8.8 --> change dns server to 8.8.8.8 to test something
+google.com
+
+set type = MX --> change the result type of dns here
+google.com --> will give us mx record instead of a record
+

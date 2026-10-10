@@ -1,0 +1,18 @@
+1) get service in windows powershell
+    Get-Service wuauserv --> get the windows update service
+    Get-Service wuauserv | Format-List * --> get windows update service but with
+more details
+
+    Stop-Service wuauserv --> stop windows update service 
+    Get-Service wuauserv --> check windows update service
+
+    Start-Service wuauserv --> start windows update service 
+    Get-Service wuauserv --> check widnows update service
+
+    Get-Service --> get all the services registered in the system
+
+Another way to filter:
+    Get-Service | Where-Object Status -eq "Running" | Where-Object Name -like "anydesk"
+
+2) Using graphical tool 
+    Run --> services.msc

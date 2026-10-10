@@ -1,0 +1,16 @@
+1) List only directories
+    ls -Directory
+    ls -Directory | Sort-Object CreationTime
+
+2) Create directory
+    mkdir my_cool_folder
+    mkdir 'my cool folder'
+    mkdir `my `cool `folder
+
+    ` --> in powershell, it is the escape character
+    
+    in linux, create directory is the same but difference is the escape character, they use '\'
+    so the command is: mkdir my\ cool\ folder
+
+Note:
+    ls -Force | Sort-Object CreationTime

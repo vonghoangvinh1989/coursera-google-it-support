@@ -1,0 +1,8 @@
+Data buffer
+     A region of RAM that's used to temporarily store data while it's being moved around
+
+1) check status of automatic file-system repair of hard drive (using fsutil) (CMD)
+    fsutil repair query C:
+
+2) check disk and try to fix 
+    chkdsk /F D:

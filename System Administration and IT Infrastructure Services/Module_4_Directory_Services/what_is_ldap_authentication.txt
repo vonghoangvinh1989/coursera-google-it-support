@@ -1,0 +1,7 @@
+Bind operation
+    authenticates clients to the directory server
+
+Kerberos
+    a network authentication protocol that's used to authenticate user identity,
+secure the transfer of user credentials, and more
+

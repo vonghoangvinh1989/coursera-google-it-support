@@ -1,0 +1,31 @@
+4 = setuid
+2 = setgid
+1 = sticky bit
+
+symbolic
+t: sticky bit
+s: uid, gid
+
+
+Imagine: a user do not have any permission but would like to run a file, we can
+set uid to file --> allow that file when run, use the permission of that owner 
+set gid to file --> allow that file when run, use the permission of that group
+remember: user run that file do not have the permission
+
+1) how to set special permission bit to allow a file to be run as the owner of the file
+or setuid
+    sudo chmod u+s my_cool_file 
+    sudo chmod 4755 my_cool_file 
+
+2) how to setgid to allow a file to be run as the group
+    sudo chmod u=rwx,g=rx,o=rx,g+s my_cool_file
+    sudo chmod g+x my_cool_file
+    sudo chmod 2755 my_cool_file
+
+3) sticky bit: stick a file or folder down
+    anyone can write to a file or folder but they can't actually delete anything
+    only owner of the group can delete anything
+
+    sudo chmod +t my_folder/
+    sudo chmod 1755 my_folder/
+

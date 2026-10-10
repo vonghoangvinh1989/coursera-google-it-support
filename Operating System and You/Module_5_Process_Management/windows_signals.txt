@@ -1,0 +1,2 @@
+1) To tell a process to quit at the system level, we use something called 'signal'
+    SIGINT --> signal interrupt (for example Ctrl + C)

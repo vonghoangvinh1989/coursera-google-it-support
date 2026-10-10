@@ -1,0 +1,10 @@
+Programs: application we can run 
+Processes: Programs that are running
+    One program: can have many processes
+
+1) how process work 
+    open words --> open processes, each process has process id to uniquely identify it from 
+other processes
+
+    background proccess / daemon process: run in the background, why: system need
+them to function such as scheduling resources, logging, managing networks

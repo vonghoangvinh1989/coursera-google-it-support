@@ -1,0 +1,10 @@
+1) create new user
+    sudo useradd juan
+
+2) delete new user
+    sudo userdel juan
+
+3) combine to create user and make user change password
+    sudo useradd andrea
+    sudo passwd -e andrea
+    

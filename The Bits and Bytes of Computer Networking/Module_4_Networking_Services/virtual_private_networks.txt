@@ -1,0 +1,2 @@
+VPN: a technology that allows for the extension of a private or local network to hosts
+that might not work on that same local network

@@ -1,0 +1,40 @@
+1) View special permissions
+     icacls C:\Windows\Temp\
+        C:\Windows\Temp\ BUILTIN\Users:(CI)(S,WD,AD,X)
+                        BUILTIN\Administrators:(F)
+                        BUILTIN\Administrators:(OI)(CI)(IO)(F)
+                        NT AUTHORITY\SYSTEM:(F)
+                        NT AUTHORITY\SYSTEM:(OI)(CI)(IO)(F)
+                        CREATOR OWNER:(OI)(CI)(IO)(F)
+
+        Successfully processed 1 files; Failed processing 0 files
+
+    Note: IO: Inherit only, mean not for the current folder (here is windows\temps)
+
+        WD: Create Files/Write Data
+        AD: Create Folders/Append Data
+        S: Synchronize
+
+2) Create a new folder inside Windows\Temp to see what happen
+    PS C:\WINDOWS\system32> mkdir C:\Windows\Temp\example
+        Directory: C:\Windows\Temp
+
+
+        Mode                 LastWriteTime         Length Name
+        ----                 -------------         ------ ----
+        d-----          9/8/2026   5:02 PM                example
+
+
+    PS C:\WINDOWS\system32> cd C:\Windows\Temp\example\
+    PS C:\Windows\Temp\example> icacls C:\Windows\Temp\example >> icacls.txt
+
+    PS C:\Windows\Temp\example> cat .\icacls.txt
+        C:\Windows\Temp\example BUILTIN\Users:(I)(CI)(S,WD,AD,X)
+                                BUILTIN\Administrators:(I)(F)
+                                BUILTIN\Administrators:(I)(OI)(CI)(IO)(F)
+                                NT AUTHORITY\SYSTEM:(I)(F)
+                                NT AUTHORITY\SYSTEM:(I)(OI)(CI)(IO)(F)
+                                CREATOR OWNER:(I)(OI)(CI)(IO)(F)
+
+        Note: All have (I): inherited
+        

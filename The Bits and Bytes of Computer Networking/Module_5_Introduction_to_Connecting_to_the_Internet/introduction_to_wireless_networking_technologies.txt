@@ -1,0 +1,25 @@
++ wireless standard: IEEE 802.11 standards
+    radio waves
+    could be different frequency band
+    most commonly 2.4 gigahertz and 5 gigahertz bands
+
++ frequency band
+    a certain section of radio spectrum that's been agreed upon to be used for 
+certain communications
+    802.11b/a/g/n/ac/ax (wifi 6)
+    802.11 --> physical and data link layers
+
+    4 address fields
+        address 1: source address fields
+            mac address of ac that send the frame
+        address 2: intended destination
+            
+        address 3: receiving address
+            mac address of access point that should receive the frame
+        address 4: transmitter address
+            mac adress of whatever has just transmitted the frame
++ wireless access point
+    a device that bridges the wireless and wired portions of a network
+
++ sequence control field
+    16 bits long: sequence number to keep track of ordering frame

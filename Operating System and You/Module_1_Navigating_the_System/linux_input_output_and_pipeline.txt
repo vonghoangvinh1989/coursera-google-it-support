@@ -1,0 +1,5 @@
+echo woof > dog.txt
+echo woof >> dog.txt
+ls dir/fake/dir 2> error_output.txt
+less /var/log/syslog 2> /dev/null
+ls -la /etc/ | grep bluetooth

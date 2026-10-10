@@ -1,0 +1,9 @@
+1) view content of a file 
+    cat my_host.txt
+
+2) use less to view content of a large file by page
+    less binaries.txt
+
+3) to view first and last 10 lines of file, use 'head' and 'tail'
+    head binaries.txt
+    tail binaries.txt

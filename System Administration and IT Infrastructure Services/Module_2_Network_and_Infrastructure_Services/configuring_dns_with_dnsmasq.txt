@@ -1,0 +1,39 @@
+dnsmasq
+    a program that provides dns, dhcp, tftp and pxe services in a simple package
+
+1) install dnsmasq
+    sudo apt install dnsmasq
+
+2) configure port of dnsmasq
+    sudo vim /etc/dnsmasq --> open and configure 'port 5354'
+
+3) test dns server using port 5354
+    dig www.example.com @localhost -p 5354
+
+4) debug dnsmasq
+    sudo service dnsmasq stop
+    sudo service dnsmasq -d -q --> tell dnsmasq we would like to run in debug mode
+        -d: debug mode
+        -q: log dns queries
+
+    dig www.example.com @localhost -p 5354 --> send dns query to dns server 
+
+5) debug dnsmasq with additional hosts
+    sudo vim myhosts.txt --> create myhosts.txt file
+
+    cat myhosts.txt 
+        192.168.1.2 helium.local
+        192.168.1.7 nitrogen.local
+        192.168.1.8 oxygen.local
+
+    sudo dnsmasq -d -q -H myhosts.txt --> run dnsmasq with debug mode and add myhosts.txt
+as an additional hosts file for local hostname/address resolution
+
+    Another terminal:
+        dig oxygen.local @localhost -p 5354
+
+Note:
+    check real dns server of system /etc/resolv.conf 
+        Command: resolvectl status
+
+    

@@ -1,0 +1,10 @@
+Directory server
+    contains a lookup service that provides mapping between network resources and
+their network addresses
+
+Replication
+    The stored directory data can be copied and distributed across a number of physically
+distributed servers, but still appear as one, unified datastore for querying and administrating
+    Useful for organizing data and making it searchable for an organization 
+
+    

@@ -1,0 +1,12 @@
+1) Permission in linux 
+    ls -l yellow_document.txt 
+    -rw-rw-r-- 1 vonghoangvinh vonghoangvinh 0 Sep  5 13:11 yellow_document.txt
+    
+    -: this is normal file
+    rw-: permission of owner of the file (read and write)
+    rw-: permission of group that the file belongs to (read and write)
+    r--: permission of all other users (read)
+        (r: readable, w: writable, x: executable)
+
+
+    

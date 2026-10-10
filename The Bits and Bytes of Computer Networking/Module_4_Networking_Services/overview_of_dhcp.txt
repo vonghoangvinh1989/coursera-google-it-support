@@ -1,0 +1,5 @@
+Subnet mask, the primay gateway, dns server
+
+DHCP
+    an application layer protocol that automates the configuration process of hosts on network
+

@@ -1,0 +1,5 @@
+1) view disk usage
+    du -h ~
+
+2) view disk free 
+    df -h 

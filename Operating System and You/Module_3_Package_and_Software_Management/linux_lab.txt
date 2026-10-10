@@ -1,0 +1,5 @@
+1) extract tar file
+    tar -xvf extract_me.tar --> extract tar file with xvf 
+
+2) combine into tar file 
+    tar -cvf Planets.tar --absolute-names /home/qwiklab/documents/Earth /home/qwiklab/documents/Mercury /home/qwiklab/documents/Venus

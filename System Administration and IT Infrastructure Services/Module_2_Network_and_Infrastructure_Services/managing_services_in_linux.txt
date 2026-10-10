@@ -1,0 +1,18 @@
+1) view status of service
+    service ntp status --> check status of ntp service but his one is really one
+    systemctl status chronyd --> using new command to check service status 
+
+2) change date of system to the past
+    sudo date -s "2017-01-01 00:00:00" --> change date
+    date --> check date
+
+3) restart the service chronyd and see the date will up to date (old service is ntp)
+    sudo systemctl stop chronyd --> stop service
+    date --> check the date
+    sudo systemctl start chrony --> start service 
+    date --> check the date again, it back to current date
+
+    sudo date -s "2017-01-01 00:00:00" --> change date
+    date --> check date
+    sudo systemctl restart chronyd --> restart the service
+    date --> check the date again, it back to current date

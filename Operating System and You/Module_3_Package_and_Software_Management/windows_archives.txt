@@ -1,0 +1,10 @@
+1) How to zip a file using powershell
+    Compress-Archive -Path .\Express-Project\ .\CoolArchive.zip
+or more specific
+    Compress-Archive -Path .\Express-Project\ -DestinationPath .\CoolArchive.zip
+
+2) How to extract a zip file
+    Expand-Achive -Path .\CoolArchive.zip -DestinationPath .\CoolArchive
+        note: we can specify a folder to unzip here
+
+        

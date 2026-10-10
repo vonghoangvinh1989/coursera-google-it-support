@@ -1,0 +1,13 @@
+1) windows file system
+    ntfs
+
+2) linux
+    ext4
+
+For example:
+    usb ntfs formatted --> linux and windows can support
+    usb ext4 formatted --> only linux
+
+Fat 32 --> support windows, linux and macos
+    support a file maximum 4gb 
+    and 32gb max file system

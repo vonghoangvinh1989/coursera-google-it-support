@@ -1,0 +1,2 @@
+DNS zones --> allow for easier control over multiple levels of a domain
+

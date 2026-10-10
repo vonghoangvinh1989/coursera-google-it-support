@@ -1,0 +1,17 @@
+1) Display file content
+    cat .\important_document.txt
+
+2) View file content with one screen at the time
+    more .\large_content.txt
+
+    Enter: move up one line
+    Space: advanced by one page
+    q: quit the more command back to shell
+or
+    cat .\large_content.txt | more 
+
+3) How to view the first 10 ten lines of a file, use "-Head" with cat
+    cat -Head 10 .\large_content.txt
+
+4) How to view the last 10 lines of a file, use "-Tail" with cat
+    cat -Tail 10 .\large_content.txt

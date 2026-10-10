@@ -1,0 +1,18 @@
+1) kill the process with 'kill' command 
+    kill: without option will send SIGTERM signal (termination signal), kill the process
+but give it some time to clean up the resources it was using (could cause discorruption)
+
+    kill 7376 --> kill process with id 7376
+    kill -KILL 7376 --> send signal SIGKILL to make the process 'time to die', no need to wait
+
+2) put the process on pause (not terminate), send SIGTSTP to get the process on pause
+    kill -TSTP 7376 --> put the process on pause 
+    kill -CONT 7376 --> put the process back to work 
+
+
+Note
+    SIGTERM
+    SIGKILL -> -KILL
+    SIGTSTP -> -TSTP
+    
+

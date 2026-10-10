@@ -1,0 +1,5 @@
+sudo parted /dev/sdb
+print
+mkpart primary linux-swap 5GiB 100% --> create partition for swap space linux
+sudo mkswap /dev/sdb2 
+sudo swapon /dev/sdb2 --> enable swap on the device

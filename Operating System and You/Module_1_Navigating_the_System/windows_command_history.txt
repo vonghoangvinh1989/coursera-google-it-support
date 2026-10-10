@@ -1,0 +1,10 @@
+1) to view command history in powershell
+    history
+
+2) to search in history
+    Ctrl + R --> keyword to search 
+
+    another way is: #term
+        using with tab completion
+
+Linux: the same command

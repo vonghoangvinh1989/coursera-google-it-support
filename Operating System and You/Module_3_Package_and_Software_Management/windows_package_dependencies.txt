@@ -1,0 +1,13 @@
+1) Find package with name 'sysinternals' and all their dependencies
+    Find-Package sysinternals -IncludeDependencies
+
+2) Register package source with name 'chocolatey'
+    Register-PackageSource -Name chocolatey -ProviderName Chocolatey -Location https://chocolatey.org
+
+3) Check Package source
+    Get-PackageSource
+
+4) Install Package 
+    Install-Package -Name sysinternals 
+or 
+    Install-Package -Name sysinternals -source chocolatey

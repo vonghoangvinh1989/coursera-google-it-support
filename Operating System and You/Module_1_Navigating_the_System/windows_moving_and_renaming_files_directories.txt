@@ -1,0 +1,8 @@
+1) Renaming files in windows
+    mv .\blue_document.txt yellow_document.txt
+    mv *_document.txt c:\users\cindy\Documents
+
+Note:
+    In linux, the same thing
+    a) renaming file
+        mv red_document.txt blue_document.txt

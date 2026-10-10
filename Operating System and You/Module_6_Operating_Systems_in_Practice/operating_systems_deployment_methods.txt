@@ -1,0 +1,6 @@
+1) disk clone tool in linux (using dd command)
+    mount /dev/sdb1 --> unmount usb in linux 
+    sudo dd if=/dev/sdb1 of=~/my_usb_drive/my_usb_image.img bs=100M --> copy content of
+usb partition 1 to image with block size 100M
+
+    sudo dd if=/dev/sdb1 of=~/my_usb_drive/my_usb_image.img bs=100M status=progress

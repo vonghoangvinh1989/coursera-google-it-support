@@ -1,0 +1,3 @@
+less /var/log/syslog | grep error
+
+tail -f /var/log/syslog

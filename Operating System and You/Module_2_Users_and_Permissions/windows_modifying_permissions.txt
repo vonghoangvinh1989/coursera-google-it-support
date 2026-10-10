@@ -1,0 +1,22 @@
+1) view permissions of users of folder
+    check permission of devan
+        icacls 'C:\Vacation Pictures'
+
+2) Give everyone permission to view these pictures
+    Powershell
+        icacls 'C:\Vacation Pictures' /grant 'Everyone:(OI)(CI)(R)'
+
+    Command Prompt
+        icacls "C:\Vacation Pictures" /grant Everyone:(OI)(CI)(R)
+
+3) How to know where group 'Everyone' exists
+    whoami /all
+
+4) How about just for any users has password or (authenticated) view the pictures
+    icacls 'C:\Vacation Pictures' /grant 'Authenticated Users:(OI)(CI)(R)'
+
+5) Remove permissions of Everyone group
+    icacls 'C:\Vacation Pictures' /remove Everyone
+
+Note: we can grant permission for a user
+    icacls 'C:\Vacation Pictures' /grant 'devon:(OI)(CI)(R)'

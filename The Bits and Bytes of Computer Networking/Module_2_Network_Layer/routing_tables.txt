@@ -1,0 +1,14 @@
++ destination network
+    contain a row for each network that router knows about
+
++ next hop
+    ip address of the next router that should receive data intended for the 
+destination networking question
+
++ total hops
+
++ interface
+    
+
+
+

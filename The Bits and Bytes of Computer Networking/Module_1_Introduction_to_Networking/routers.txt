@@ -1,0 +1,8 @@
+Hub and Switches: used to connect computers on a single network (LAN)
+
+To other networks: router, a device that knows how to forward data between
+independent networks (layer 3), determine ip where to send things
+    
+
+
+

@@ -1,0 +1,2 @@
+1) Copy directories
+    cp -rv source destination

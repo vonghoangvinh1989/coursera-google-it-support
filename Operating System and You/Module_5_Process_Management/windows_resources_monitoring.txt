@@ -1,0 +1,5 @@
+1) View resources monitoring in powershell
+    Get-Process | Sort CPU -descending | Select -first 3 -Property ID,ProcessName,CPU
+--> get the top 3 process use the most cpu
+
+    

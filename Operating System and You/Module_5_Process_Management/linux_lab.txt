@@ -1,0 +1,2 @@
+ps -aux | grep "totally_not_malicious"
+ps -aux | grep razzle

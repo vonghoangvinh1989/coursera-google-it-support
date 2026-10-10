@@ -1,0 +1,13 @@
+Commands to check package was installed or not
+    dpkg -s 'unique package name' --> -s: search, search for a program and check if it's installed
+        For example: dpkg -s firefox-esr
+                    dpkg -s gimp
+
+    dpkg -l | grep nginx --> check a package was installed or not
+
+
+Note: search in repository (not in computer)
+    apt search "package name" --> search follow package name
+        for example: apt search "web browser"
+    
+    apt-cache search firefox

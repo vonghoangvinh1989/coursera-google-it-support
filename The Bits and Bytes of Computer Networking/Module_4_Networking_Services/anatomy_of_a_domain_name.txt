@@ -1,0 +1,13 @@
+www.google.com
+
+www -> subdomain, hostname
+google -> to demarcate where control moves from a TLD name server to an authoritative name server
+    outside ICANN
+com -> TLD (top level)
+    common: .com, .net, .edu, .ca
+
+    ICANN
+
+--> Fully qualified domain name (FQDN), all of that
+
+total 255 characters

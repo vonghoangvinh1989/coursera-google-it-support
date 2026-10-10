@@ -1,0 +1,9 @@
+1) install the package
+    sudo apt install gimp
+
+2) remove the package
+    sudo apt remove gimp
+
+3) Repository source file in ubuntu is: /etc/apt/sources.list
+    new version of ubuntu is in a directory: /etc/apt/sources.list.d/
+        cat ubuntu.sources

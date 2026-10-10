@@ -1,0 +1,4 @@
+1) Use 'sls' command to search content of the file
+    Get-Alias sls --> Select-String
+    Select-String cow farm_animal.txt
+    Select-String cow *.txt

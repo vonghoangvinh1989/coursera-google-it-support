@@ -1,0 +1,30 @@
+1) formatting with diskpart (in cli)
+    Diskpart
+
+    DISKPART>list disk 
+        --> list all the disks
+
+    DISKPART>select disk 1 
+        --> select the disk of usb (check the file size)
+
+    DISKPART>clean 
+        --> clean the disk (all volume, partition, data, etc)
+
+    DISKPART>create partition primary 
+        --> create partition for disk
+
+    DISKPART>list partition
+        --> list partition of disk 
+
+    DISKPART>select partition 1
+        --> select the partition you want to
+
+    DISKPART>active 
+        --> mark the partition is 'active'
+
+    DISKPART>format FS=NTFS label=my-thumb-drive quick
+        --> format disk
+
+    
+    
+    

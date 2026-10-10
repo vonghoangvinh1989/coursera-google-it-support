@@ -1,0 +1,8 @@
+1) Virtual memory
+    how os provides the physical memory available in our computer (RAM) to the applications
+that run on the computer
+
+    ability to do: dedicates an area of the hard drive to use a stroage space for blocks
+of data called pages
+
+    

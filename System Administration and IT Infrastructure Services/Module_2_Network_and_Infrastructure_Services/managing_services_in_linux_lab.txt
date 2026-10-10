@@ -1,0 +1,34 @@
+sudo service --status-all --> listing system services
+    +: active/running
+    -: inactive/stopped
+    ?: can not determine whether service is active or not 
+
+1) rsyslog --> writing content to log files (/var/log/syslog, /var/log/kern.log, /var/log/auth.log)
+    sudo service rsyslog status
+    sudo systemctl status rsyslog
+
+    logger "this is a test log entry" --> write log into /var/log/syslog
+    sudo tail -1 /var/log/syslog --> checking log of syslog 
+
+    sudo service rsyslog stop --> stop service rsyslog
+    sudo service rsyslog status --> view status of rsyslog 
+
+if not working: try
+    sudo systemctl syslog.socket stop --> stop syslog.socket
+    sudo systemctl rsyslog stop --> stop rsyslog
+
+    sudo systemctl syslog.socket status --> view status syslog.socket
+    sudo systemctl rsyslog status --> view status rsyslog
+
+    logger "this is new test entry" --> write log to /var/log/syslog
+    sudo tail /var/log/syslog --> see nothing because rsyslog was disbled
+
+start rsyslog again
+    sudo systemctl syslog.socket start --> start syslog.socket
+    sudo systemctl rsyslog start --> start rsyslog
+
+    sudo systemctl syslog.socket status --> view status syslog.socket
+    sudo systemctl rsyslog status --> view status rsyslog
+
+    logger "this is new new test entry" --> write log to /var/log/syslog
+    sudo tail /var/log/syslog --> see the text because it was enabled

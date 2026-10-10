@@ -1,0 +1,19 @@
+1) redirect output to file
+    echo woof > dog.txt --> write content to file dog.txt
+        >: redirect operator
+
+    echo woof >> dog.txt --> append content to the file dog.txt
+        >>: append operator
+
+2) send output of one command to input of another command, using pipe operator
+    cat .\words.txt | Select-String st
+    cat .\words.txt | Select-String st > st_words.txt
+
+3) redirect stderr to file 
+    rm secure_file 2> errors.txt --> in default 2 is the stream of stderr
+
+        1: stdout - the output
+        2: stderr - the error
+        $null --> special variable contain the value of nothing
+
+    rm secure_file 2> $null

@@ -1,0 +1,8 @@
+1) Edit file with nano
+    nano ubuntu.txt
+
+    ^ --> mean control key
+    ^G --> get help
+    ^S --> save
+    ^O --> write 
+    ^X --> exit

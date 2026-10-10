@@ -1,0 +1,3 @@
+grep -rw /home/user/Downloads -e 'vacation' --> Đi đệ quy trong /home/user/Downloads, tìm những dòng có từ vacation đứng độc lập.
+    -e: for match pattern
+    -w: whole word, -w nghĩa là bạn muốn tìm vacation như một từ độc lập (whole word).

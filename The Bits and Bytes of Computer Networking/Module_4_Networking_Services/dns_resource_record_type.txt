@@ -1,0 +1,27 @@
+A record
+    point a certain domain name at a certain ipv4 ip address
+
+    in basic use, a single A record is configured for a single domain name
+
+Quad A record
+    similar to a record, except that it returns an ip v6 instead of ip v4
+
+CNAME record
+    redirect traffic from one domain name to another
+
+Mail exchange (MX)
+    to deliver email to correct servers
+
+Service Record (SRV)
+    to define the location of various specific services
+
+Text record (txt)
+    associating some descriptive with a domain name for human reading
+
+SOA record (Start of authority)
+    declare the zone and the name of the name server that is authoritative for it
+
+NS record
+    indicate other name servers that might also be responsible for this zone
+
+    

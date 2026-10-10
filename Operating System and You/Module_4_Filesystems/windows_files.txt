@@ -1,0 +1,24 @@
+File metadata
+    - owner of the file, permissions, size of the file, location on hard drive
+
+NTFS
+    - use MFT (Master file table)
+    - every file on a volume has at least one entry in the MFT store (file name, file size, created time, modified time, permission, data location)
+and each entry has file record number
+
+1) Create symlink in Command Prompt (open with administrator)
+    mklink file_1_symlink file_1.txt --> create symlink for file_1.txt 
+    notepad.exe file_1_symlink --> can view the content of file_1.txt by symlink
+
+
+2) Create hardlink 
+    - when create hardlink in windows, an entry is added to the MFT that points to the linked
+file record number, not the name of the file (that means the filename can change and it still work)
+
+    - command to use:
+        mklink /H file_1_hardlink file_1.txt --> create hardlink for file_1.txt
+    
+    - when we try to rename the file_1.txt to file_1_note.txt, symlink does not work but 
+hardlink still works
+
+    

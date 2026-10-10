@@ -1,0 +1,8 @@
+1) Record Terminal with 'script'
+    script session.log --> record all commands in terminal with script command 
+    less -R session.log --> read file 'session.log'
+
+2) Record Powershell with 'start-transcript'
+    Start-Transcript -Path C:\Transcript.txt --> can read file transcript.txt but it still 
+write the content to file, now type some command such as Get-Process 
+    Stop-Transcript --> stop recording

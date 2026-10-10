@@ -1,0 +1,7 @@
+Lightweight Directory Access Protocol (LDAP)
+    used to access information in directory services like over a network
+
+dn: CN=Devan Sri-Tharan,OU=Sysadmin,DC=example,DC=com
+
+dn: distinguished name 
+CN: common name of the object

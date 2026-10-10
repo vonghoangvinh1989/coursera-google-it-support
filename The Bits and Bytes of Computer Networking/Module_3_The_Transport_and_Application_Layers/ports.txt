@@ -1,0 +1,3 @@
+system ports: ports 1 - 1023
+user ports: port 1024 - 49151
+ephemeral ports: port 49152 - 65535 (only client uses)

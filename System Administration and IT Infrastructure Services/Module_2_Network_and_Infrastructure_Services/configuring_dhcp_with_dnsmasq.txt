@@ -1,0 +1,18 @@
+DHCP server
+
+    ip address show eth_srv
+    ip address show eth_cli
+
+    cat dhcp.conf
+
+    sudo dnsmasq -d -q -C dhcp.conf 
+
+
+DHCP Client
+    sudo dhclient -i eth_cli -v
+
+    ip address show eth_cli
+
+    dig @localhost instance-1.example
+
+

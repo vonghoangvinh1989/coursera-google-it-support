@@ -1,0 +1,16 @@
+cpu
+    instruction set 
+    broke into small instruction
+
+-> make sure it's compatible with motherboard
+
+sockets:
+    LGA: Land Grid 
+        - pins coming out of the motherboard
+
+    
+    PGA: Pin Grid Array
+        - pins coming out of the processor itself
+
+cpu 32 or 64bits architecture
+    --> how much data they can efficiently handle

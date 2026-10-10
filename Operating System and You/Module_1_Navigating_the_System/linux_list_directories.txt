@@ -1,0 +1,3 @@
+Command 
+    ls -l / --> long listing
+    ls -la / --> long listing and all files (even hidden files) 

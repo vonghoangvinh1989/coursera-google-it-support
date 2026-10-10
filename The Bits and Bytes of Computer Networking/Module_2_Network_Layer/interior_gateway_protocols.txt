@@ -1,0 +1,19 @@
+1) routing protocols
+    protocols that routers use to speak to each other to share what infor they have
+    2 categories: interior gateway protocols and exterior gateway protocols
+
+    a) interior gateway protocols
+        2 categories: link state routing protocols and distance-vector protocols
+        - share infor within a single autonomous system
+
+        distance-vector protocols (older): take routing table, and how far hop - do not know 
+    much about state of autonomous system, just have info about their immediate neighbors
+
+        link state routing protocols: more sophisticated approach, (each router advertises the state
+    of the link of each of its interfaces), every routers know all details of other routers in 
+    the system - so each router will use these info and algorithm to figure out the
+    best path to any destination (more power needs)
+
+    b) exterior gateway protocols
+        - for exchange of infor between independent autonomous system
+

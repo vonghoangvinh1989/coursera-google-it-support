@@ -1,0 +1,7 @@
+commands
+    pwd --> print working directory
+    cd C:\users\vongh\Documents --> change directory to Documents
+    cd .. --> back to parent directory
+    cd ~ --> go to current home user directory
+
+Linux: could be the same

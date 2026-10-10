@@ -1,0 +1,14 @@
+Saas (software as a service): software is already pre-configured and the user
+isn't deeply involved in the cloud configuration 
+
+IaaS (Infrastructure as a Service): hosting your own services in the cloud, you need 
+to decide how you want the infrastructure to look, depending on what you want to 
+run on it
+    - machine types, storage
+
+
+Public cloud: cloud services provided by a third party
+Private cloud: your company owns the services and the rest of your infrastructure - 
+whether on-site or in a remote data center
+Hybrid cloud: mixture of public and private clouds
+

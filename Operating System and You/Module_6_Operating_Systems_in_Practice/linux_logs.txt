@@ -1,0 +1,7 @@
+ls /var/log --> where contains all the logs of linux system 
+
+/var/log/auth.log --> authentication and security event log
+/var/log/kern.log --> kernel message log 
+/var/log/dmesg --> system startup message log 
+
+/var/log/syslog --> log every thing (not auth)

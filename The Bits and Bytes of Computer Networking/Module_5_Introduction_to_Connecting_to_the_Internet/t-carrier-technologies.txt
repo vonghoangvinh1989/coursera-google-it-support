@@ -1,0 +1,12 @@
++ system that lots of phone calls travel in single cable
++ T1: a single piece of twisted pair copper can carry 24 simultaneous phone calls
+    years later: capable of transmitting data at 64 kbit/second or 1.544 megabit/second
+    connect telecom companies together
+
+    rise of internet: many companies pay T1 technologies to have faster internet connectivity
+        multiple T1 act as a single link
+        for ex: T3 line = 28 T1 alls all multiplexed (44.736 Mbps)
+
+
+
+

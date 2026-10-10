@@ -1,0 +1,23 @@
+1) view the block devices and file system attached to your system using lsblk
+    lsblk 
+
+2) view mounted disk 
+    df -H
+
+3) examine your disk's partitions
+    sudo fdisk -l --> -l list partitions in the block (display info about partitions)
+    sudo fdisk -l /dev/sda --> list only partitions on mounted drive 
+
+4) use fdisk to partition unmounted device 
+    sudo fdisk /dev/sdb
+    m --> help
+    p --> print the partition table
+    d --> delete and enter the number of partition you want to delete
+    n --> add new partition
+    t --> change partition type
+    v --> verify your changes before proceeding
+    w --> for commit
+
+5) use mkfs to format partitions
+    lsblk
+    sudo mkfs -t ext4 /dev/sdb2

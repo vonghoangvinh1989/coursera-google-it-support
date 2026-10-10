@@ -1,0 +1,26 @@
+Physical layer: physical devices interconnect computers, connections, signal, cables
+    bits
+
+Data link: ethernet, wifi
+    frames
+    mac address
+
+    Ethernet: standards, define protocol responsible for getting data to nodes on the
+    same network or link
+
+Network layer: different networks to communicate with each other through devices
+known as routers
+    packet / datagram
+    ip
+
+Transport layer: sorts out which client and server programs are supposed to get
+that data
+    segment
+    tcp-ip (check error)/udp 
+    ports
+
+Application layer: content of packages itself
+
+
+
+

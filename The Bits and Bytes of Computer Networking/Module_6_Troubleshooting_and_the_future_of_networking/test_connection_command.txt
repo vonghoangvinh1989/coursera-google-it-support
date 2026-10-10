@@ -1,0 +1,19 @@
+Test-NetConnection <host> <port>
+Example command: Test-NetConnection -ComputerName
+google.com -Port 80
+
+
+Example: An employee is having trouble connecting to a specic website from
+their computer, but other sites are loading ne in the browser. You can try
+connecting to the website directly with:
+Test-NetConnection -ComputerName www.example.com -Port 80
+-InformationLevel Detailed
+
+
+Note
+Test-NetConnection → test network connectivity	Tất cả parameters
+Get-NetRoute → routing table	Cú pháp lọc phức tạp
+Resolve-DnsName → DNS	Các option nâng cao
+Get-Process → processes	Syntax của Where-Object
+Get-Service → services	Pipeline tricks
+Get-NetIPConfiguration → network config	Từng property

@@ -1,0 +1,7 @@
+1) Command to monitor the resource in linux
+    top --> to view the resources and processes 
+    q --> to quit 
+
+2) uptime command to get how long the computer runs, or how many uses logged in 
+    uptime --> give the load average for last min, last 5 mins, and last 15 mins
+

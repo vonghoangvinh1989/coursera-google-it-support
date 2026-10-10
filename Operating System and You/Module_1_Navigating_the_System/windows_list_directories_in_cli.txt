@@ -1,0 +1,8 @@
+1) Powershell
+    a) get help in powershell
+        Get-Help ls --> get brief of parameter on ls commands, we can see here it's actually 'Get-ChildItem'
+        Get-Help ls -Full --> see full details
+
+    b) see hidden files in powershell
+        ls -Force C:\ --> using '-Force' option
+

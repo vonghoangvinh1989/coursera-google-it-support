@@ -1,0 +1,4 @@
+Centralized Management
+    a central service that provides instructions to all of the different parts
+of my IT infrastructure
+

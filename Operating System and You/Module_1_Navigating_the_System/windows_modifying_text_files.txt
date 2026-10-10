@@ -1,0 +1,2 @@
+1) open with notepadd++ and file
+    start notepad++ hello.txt

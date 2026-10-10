@@ -1,0 +1,3 @@
+Proxy server
+    acts as an intermediary between a company's network and the internet
+    

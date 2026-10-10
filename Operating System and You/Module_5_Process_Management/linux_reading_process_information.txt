@@ -1,0 +1,26 @@
+1) list processes running on linux
+    ps -x --> show the running processes
+        pid: process unique id
+        tty: terminal related to the process
+        stat: process status
+            R: running
+            T: stopped / suspended
+            S: interruptible sleep (task waiting for event to complete before it resumes)
+        time: total cpu time
+        command: name of the command running
+
+    ps -ef --> showing all process (with -e) and do full format listing with (-f)
+        uid:  user id of person who launched the process
+        pid: process id 
+        ppid: parent id of the process
+        c: number of children that process has
+        stime: start time of the process 
+        tty: terminal associates the process 
+        time: total cpu time that process taken up
+        cmd: command of the process 
+    
+    ps -ef | grep chrome --> get all info about 'chrome' process 
+
+Note: we can view in /proc with file related to processes
+    for example:
+        cat /proc/1807/status --> view all infos about process with id '1807'

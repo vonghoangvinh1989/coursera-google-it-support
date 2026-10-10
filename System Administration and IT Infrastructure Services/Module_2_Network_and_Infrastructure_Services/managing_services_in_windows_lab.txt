@@ -1,0 +1,26 @@
+1) Enable service before start and stop
+Some service we can not start before it was enable
+    Get-Service ScardSrv | Format-List * --> see the service was disabled at StartType
+        Name                : ScardSvr
+        RequiredServices    : {}
+        CanPauseAndContinue : False
+        CanShutdown         : False
+        CanStop             : False
+        DisplayName         : Smart Card
+        DependentServices   : {}
+        MachineName         : .
+        ServiceName         : ScardSvr
+        ServicesDependedOn  : {}
+        ServiceHandle       :
+        Status              : Stopped
+        ServiceType         : Win32ShareProcess
+        StartType           : Disabled
+        Site                :
+        Container           :
+    
+    Start-Service ScardSvr --> will be error out
+
+    Set-Service ScardSvr -StartupType Manual --> enable service with startup type manual
+
+2) enabling additional features
+    Install-WindowsFeature Web-WebServer,Web-Mgmt-Tools -IncludeAllSubFeature

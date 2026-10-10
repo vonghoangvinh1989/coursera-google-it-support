@@ -1,0 +1,10 @@
+1) copy file over network with 'pscp' command in powershell
+    pscp.exe .\my_sending_file.txt vonghoangvinh@172.16.1.209:~ --> copy file to 
+linux machine with pscp from windows, remember we have :<path>
+
+2) Share folder between computers in powershell with net share 
+    net share ShareMe=C:\Users\vongh\OneDrive\Desktop\ShareMe /grant:everyone,full -->
+share folder 'ShareMe' to everyone with full permission
+
+3) List all share folder in computer with net share
+    net share

@@ -1,0 +1,14 @@
+1) Delete (remove) file
+    rm .\text1.txt
+
+2) Delete file with -Force
+    rm -Force .\important_file.txt --> removes it even if the file has attributes like Hidden or Read-only
+
+3) Delete directories with children, using -Recurse
+    rm -Recurse .\test_directories
+
+Note:
+    In linux: delete directories
+        rm -r ~/travel_directories
+
+        

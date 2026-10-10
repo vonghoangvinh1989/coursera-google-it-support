@@ -1,0 +1,5 @@
+broadband: any connectivity technology that isn't dial-up internet
+    always on
+
+T-carrier technologies
+    invented by AT&T, to transmit multiple phone calls over a single link

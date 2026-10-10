@@ -1,0 +1,5 @@
+Network time protocol (NTP)
+    used to keep the clock synchronized on machines connected to a Network
+    need to set up NTP server: local NTP server
+    
+

@@ -1,0 +1,10 @@
+ICMP: is mainly used by router or remote host to communicate why a transmission has failed
+back to the origin of the tranmission.
+
+Type: 8 bits -> what type of message
+Code: 8 bits
+Checksum: 16 bits
+
+32 bit field: rest of header:
+data payload
+

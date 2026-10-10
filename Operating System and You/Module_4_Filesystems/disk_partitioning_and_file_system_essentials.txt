@@ -1,0 +1,21 @@
+Partition
+    the piece of a disk that you can manage
+
+Partition table
+    + tells os how the disk is partitioned: which partition can be booted from, how much space
+is allocated to partition
+    + 2 main partition table schemes are used:
+        MBR: master boot record
+            primary partitions
+            2tb max volume size
+            only have 4 primary partition on disk
+
+        GPT: guid partition table
+            2tb or greather volume size
+            one type of partition
+            unlimited partitions
+
+Note:       
+    new bios standard UEFI booting, system need to be used GUID partition table
+
+

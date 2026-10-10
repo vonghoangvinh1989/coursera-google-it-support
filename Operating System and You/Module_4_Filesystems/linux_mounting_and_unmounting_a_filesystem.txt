@@ -1,0 +1,16 @@
+
+1) check partition and mount usb
+    lsblk -f --> view disk, partition and filesystem even not mounted yet
+    sudo parted -l --> view usb has partition 1
+
+    sudo mkdir /my_usb --> create new directory to mount usb
+    sudo mount /dev/sdb1 /my_usb --> mount usb device into my_usb and now can start write and read data 
+
+2) umount usb
+    sudo umount /dev/sdb1 --> umount usb
+
+3) how to permanently mount device using file '/etc/fstab'
+    cat /etc/fstab --> view fstab file
+    sudo blkid --> get the block id if usb device to write in fstab file to mount 
+
+

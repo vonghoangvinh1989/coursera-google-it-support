@@ -1,0 +1,9 @@
+Router
+    network device forwards traffic depending on the destination address of that traffic
+
+Basic routing:
+    1 - receive data packet
+    2 - examines destination ip
+    3 - looks up ip destination network in routing table
+    4 - forwards traffic to destination
+

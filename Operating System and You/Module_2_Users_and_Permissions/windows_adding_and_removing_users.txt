@@ -1,0 +1,14 @@
+1) adding user using cli 
+    net user andrea * /add
+
+2) make user change their password at the next logon
+    net user andrea /logonpasswordchg:yes
+
+3) combine two commands to create new account and change password at the next logon
+    net user cesar pa5sw0rd /add /logonpasswordchg:yes
+
+4) remove users
+    net user andrea /del --> remove local user andrea
+    Remove-LocalUser cesar --> remove local user cesar
+
+    

@@ -1,0 +1,12 @@
+1) open task manager
+    Shortcut key: ctrl + shift + end 
+or
+    taskmgr
+
+2) show all running processes in powershell
+    tasklist --> show all the running processes
+or 
+    Get-Process --> do the same for showing running processes
+    Get-Process explorer | Format-List * --> get all info about explorer process
+
+

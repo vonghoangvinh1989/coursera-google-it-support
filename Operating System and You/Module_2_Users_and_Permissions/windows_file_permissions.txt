@@ -1,0 +1,36 @@
+ACL = DACL + SACL
+ACL: access control list
+    general access-control list
+DACL: discretionary access control list
+    permissions
+SACL: system access control list
+    auditing
+
+1) permissions
+    Read: see a file exists, read its content
+        read files and directories in a directory
+
+    Read & Execute:
+        read files, and run the file if the file executable
+
+    List Folder contents:
+        alias for Read & Execute on a directory
+
+    Write:
+        make changes to a file
+        create subdirectories
+        write to files in directory
+    
+    Modify:
+        is an umbrella permission that includes read, execute and write
+
+    Full control:
+        includes all the permissions
+
+2) view and modify permissions with icacls
+    icacls ~\OneDrive\Desktop --> view desktop folder permissions
+    icacls /? --> to get help and view to understand
+        F: full control (full access)
+        OI: object inherit --> inherit to files (parent)
+        CI: container inherit --> inherit to subfolders (parent)
+        I: inherited (child)

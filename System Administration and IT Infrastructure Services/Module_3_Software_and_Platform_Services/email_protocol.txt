@@ -1,0 +1,4 @@
+Pop3: download email from server to local device and delete from the server
+IMAP: download email from server to multiple devices, keep email from the server also
+    POP3, IMAP: for receiving emails
+SMTP: used for sending emails    

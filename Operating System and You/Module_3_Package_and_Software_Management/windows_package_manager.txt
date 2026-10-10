@@ -1,0 +1,9 @@
+1) Check Package
+    Get-Package -name sysinternals --> check package was installed or not
+
+2) How to uninstall a package
+    Uninstall-Package -Name sysinternals
+
+Note:
+    Find-Package sysinternals -IncludeDependencies
+    Install-Package -Name sysinternals

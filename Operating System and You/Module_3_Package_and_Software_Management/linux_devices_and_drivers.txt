@@ -1,0 +1,31 @@
+Note: 
+character devices
+    like a keyboard or a mouse, transmit data character by character 
+
+block devices
+    like usb drives, hard drives and cdroms, transfer blocks of data; a data block is just a unit 
+of data storage
+
+1) all devices were list in /dev directory
+    ls -l /dev
+
+    /dev/null --> c in front stand for character devices
+        crw-rw-rw-  1 root          root      1,   3 Sep 11 15:50 null
+
+Here are some commands that list specific device types: 
+
+$ ls /dev - Lists all devices in the /dev folder 
+
+$ lcpci - Lists devices installed on the PCI bus 
+
+$ lsusb - Lists devices installed on the USB bus
+
+$ lsscsi - Lists SCSI devices, such as hard drives
+
+$ lpstat -p - Lists all printers and whether they are enabled
+
+$ dmesg - Lists devices recognized by the kernel
+
+
+
+

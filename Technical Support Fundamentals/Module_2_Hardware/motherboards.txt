@@ -1,0 +1,5 @@
+northbridge chip
+    ram, videos cards
+
+southbridge chip
+    i/o

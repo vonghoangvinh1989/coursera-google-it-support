@@ -1,0 +1,9 @@
+Ram clear data when it's power off
+
+Type of rams
+    DRAM: dynamic random access memory
+    DIMM
+    SDRAM
+    DDR SDRAM: double data rate SDRAM
+        lastest version: 2020 DDR5
+        

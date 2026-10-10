@@ -1,0 +1,13 @@
++ listen: a tcp socket is ready and listening for incoming connections, server only
++ syn_sent: a synchronization request has been sent, connection has not been 
+established yet, client side only
++ syn_received: a socket previously in LISTEN state has received a synchronization
+request and sent a SYN/ACK back (but it hasn't received the final ACK from the client yet)
+see on server side only
++ established: tcp connection is is working order and both sides are free to send 
+each other data
++ fin_wait: a fin has been sent, but the corresponding ACK from the other end hasn't 
+been received yet
++ close_wait: connection has been closed at the tcp layer, but that the application
+that opened the socket hasn't released its hold on the socket yet
++ closed: connection has been fully terminated and no further communication is possible

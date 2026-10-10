@@ -1,0 +1,28 @@
+owner: u
+group: g 
+others: o
+
+the numerical equivalent of rwx is:
+4 for read or r 
+2 for write or w 
+1 for execute or x
+
+1) assign/remove permission 
+    chmod u+x my_cool_file --> add executable permission for owner
+    chmod u-x my_cool_file --> remove executable permission for owner
+    chmod u+rx my_cool_file --> add read and executable permission for owner 
+    chmod ugo+r my_cool_file --> add read permission for owner, group and others
+
+    chmod 754 my_cool_file --> 7 for owner, full permission 
+                                5 for group, read and execute
+                                4 for other, just read
+
+2) change owner of the file in linux with chown
+    sudo chown devan my_cool_file --> change owner of the file to 'devan'
+
+3) change group of the file in linux with chgrp
+    sudo chgrp best_group_ever my_cool_file --> change group of the file to 'best_group_ever' 
+
+Note:
+    another to set for owner, group and others
+        sudo chmod a+r ./public_document --> all get read permission

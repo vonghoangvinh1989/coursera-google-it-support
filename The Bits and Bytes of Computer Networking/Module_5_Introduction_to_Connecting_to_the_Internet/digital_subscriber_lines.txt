@@ -1,0 +1,12 @@
++ allow voice phone calls and data transfer at the same time and same line
++ use their own modem: DSLAM (Digital Subscriber Line Access Multiplexers)
+    like dial up: set up data connection across phone lines
+    unlike dial up: usually long-running, connection established when DSLAM is powered on
+
+    type: ADSL, SDSL
+        ADSL: different speeds for outbound and incoming data
+            generally: faster download speeds, slower upload speeds (home users mostly need upload speed, they are clients)
+
+        SDSL: symmetric digital subscriber line
+            upload and download speeds are the same
+            

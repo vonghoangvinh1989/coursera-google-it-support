@@ -1,0 +1,9 @@
+windows bootup --> smss.exe process (setting os to work)
+    winlogin.exe --> logon 
+    csrss.exe --> running gui and command line
+
+1) Get pid (process id)
+    Get-Process notepadd --> get pid of notepadd, view column Id
+
+2) Kill process by using command
+    taskkill /pid 18284 --> kill the process with id 18284
