@@ -1,0 +1,19 @@
+Group Type
+    Security Group
+        can contain user accounts, computer accounts or other security groups
+        Ex: domain users, domain admins
+
+    Distribution group
+        only designed to group accounts and contacts for email communication
+        can't use distribution groups for assigning permission to resources
+
+
+Group Scope
+    Domain local: used to assign permission to a resource
+    Global: group accounts into a role
+        Researches
+    Universal: used to group global roles in a forest
+
+    
+
+

@@ -1,0 +1,6 @@
+1) Join domain from client using powershell
+    Add-Computer -DomainName 'ad.vonghoangvinh.com' -Server 'dc01'
+
+2) Get info about domain and forest functional levels are
+    Get-AdForest
+    Get-AdDomain
