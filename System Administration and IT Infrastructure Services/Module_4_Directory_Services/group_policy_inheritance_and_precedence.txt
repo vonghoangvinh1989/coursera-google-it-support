@@ -1,0 +1,8 @@
+When a computer is processing the Group Policy Objects that apply to it, all of these Policies will
+be applied in precedence rules
+
+GPOs are linked to the least specific or largest container are applied first
+GPOs are linked to the most specific or smallest container are applied last 
+- the most specific policy win 
+
+the smaller link order number will be applied last, can overwrite others 

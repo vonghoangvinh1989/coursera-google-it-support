@@ -1,0 +1,22 @@
+GPO: a set of policies and preferences that can be applied to a group
+of objects in the directory
+    contains computer configuration, user configuration or both 
+        computer configuration applied when computers start
+        user configuration applied when user logs on
+
+When link a GPO, all of the computers, users under that domain, site, or OU
+will have that policy applied.
+
+Policies
+    settings that are reapplied every few minutes, and aren't meant to be changed 
+even by the local administrators
+        reapplied every 90 mins by default
+    
+Preferences:
+    settings that in many cases, are meant to be a template for settings 
+
+SYSVOL: folder share by domain controllers to apply GPO for computers that join the domain
+
+Windows Registry 
+    a hierarchical database of settings that windows, and many windows applications,
+use for storing configuration data
