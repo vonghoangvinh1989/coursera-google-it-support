@@ -1,0 +1,14 @@
+The SRV records that we're interested in are _ldap._tcp.dc._msdcs.DOMAIN.NAME, where 
+DOMAIN.NAME is the DNS name of our domain 
+    For example: _ldap._tcp.dc._msdcs.ad.vonghoangvinh.com
+
+Note: SRV = Service Record
+    nslookup -type=SRV _ldap._tcp.dc._msdcs.ad.vonghoangvinh.com
+
+1) Open powershell and type like this 
+    Resolve-DNSName -Type SRV -Name _ldap._tcp.dc._msdcs.ad.vonghoangvinh.com
+
+2) Force Domain Controller to re sync by using command 
+    w32tm /resync --> synchronize time with server 
+
+    
