@@ -1,0 +1,10 @@
+Run these commands in client
+gpupdate /force --> force all gpos to be applied completedly and immediately
+
+gpupdate /force /sync --> with '/sync' computer has to be rebooted
+
+$env:LOGONSERVER --> display logon server associated with your
+current Windows sign-in session (normally it's DC or domain controllers)\
+
+gpresult /R --> check group policy (GPO) was applied on the computer and user
+gpresult /H test.html --> output to html file
