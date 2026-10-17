@@ -1,0 +1,4 @@
+1) Linux machine 
+    sudo apt install slapd ldap-utils
+
+    sudo dpkg-reconfigure slapd

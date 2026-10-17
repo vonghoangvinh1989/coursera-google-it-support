@@ -1,0 +1,12 @@
+dn: uid=cindy,ou=Engineering,dc=example,dc=com
+objectClass: inetOrgPerson
+description: Cindy works in the Engineering department.
+cn: Cindy
+uid: cindy
+
+Commands:
+ldapadd --> take the input of an LDIF file and adds the context of the files 
+ldapmodify --> modifies an existing object 
+ldapdelete --> will remove the object that the LDIF file refers to 
+ldapsearch --> will search for entries in your directory database 
+
