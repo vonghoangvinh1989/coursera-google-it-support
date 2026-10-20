@@ -1,0 +1,21 @@
+what data you need to backup
+    data for operations: email, sales, financial server configurations, databases 
+
+how much data currently have 
+backup should grow with operational business
+
+local storage
+    data: close, access quicker
+    restore quickly
+
+    cons:
+        data loss due to damage location 
+
+off-site storage
+    data is safer in multiple locations 
+
+    cons:
+        need security, encryption
+        large bandwidths, take times 
+
+    

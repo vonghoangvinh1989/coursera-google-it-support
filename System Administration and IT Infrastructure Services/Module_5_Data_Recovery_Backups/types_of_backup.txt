@@ -1,0 +1,12 @@
+Ways to perform regular backups
+    full backup
+    differential backup: only files changed are back unexpected
+
+--> do infrequent full backups, doing more frequent differential backups
+
+    incremental backup: only data that's changed in files since the last incremental backup is backed unexpected
+
+RAID: redundant array of independent disks (RAID)
+    a method of taking multiple physical disks and combining them into one large virtual disk 
+
+    

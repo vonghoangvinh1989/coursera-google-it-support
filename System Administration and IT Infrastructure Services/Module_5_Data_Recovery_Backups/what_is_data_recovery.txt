@@ -1,0 +1,9 @@
+Data recovery 
+    process of trying to restore data after an unexpected event that results in data loss
+or corruption 
+
+When an unexpected event occurs, main objective is 'resume normal operations', while 
+minimizing the disruption to business functions
+
+A post-mortem: is a way for you to document any problems you discovered along the way, 
+and most importantly, the ways you fixed them so you can make sure they don't happen again

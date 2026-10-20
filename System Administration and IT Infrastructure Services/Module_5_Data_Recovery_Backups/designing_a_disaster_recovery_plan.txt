@@ -1,0 +1,5 @@
+perform risk assessment 
+determine backup and recovery systems
+determine detection & alert measures & test systems 
+determine recovery measures 
+

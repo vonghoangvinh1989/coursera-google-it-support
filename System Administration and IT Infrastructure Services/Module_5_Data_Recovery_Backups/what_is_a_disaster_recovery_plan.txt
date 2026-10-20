@@ -1,0 +1,5 @@
+collection of documented precedures and plans on how to react and handle an emergency or 
+disaster scenario, from the operational perspective
+    - minimize disruption to business, it 
+    - keep minimum downtime 
+
