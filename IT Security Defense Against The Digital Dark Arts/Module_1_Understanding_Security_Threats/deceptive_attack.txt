@@ -1,0 +1,3 @@
+Tailgating:
+    gaining access into a restricted area or building by following a real
+employee in.

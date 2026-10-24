@@ -1,0 +1,10 @@
+encryption
+    taking a message, called plaintext, and applying an operation to it, called 
+a cipher, receive a garbled, unreadable message as output, called ciphertext
+
+encryption algorithm
+    the underlying logic of process that's used to convert the plaintext into ciphertext
+
+encryption algorithm
+choose a key 
+

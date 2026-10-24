@@ -1,0 +1,8 @@
+Denial of service (DOS) attack: an attack that tries to prevent access to a service
+for legitimate users by overwhelming the network or server.
+    Ex: ping of dealth (POS) -> sending malformed ping to a computer (larger in size that internet will handle),
+result in buffer overflow
+        SYN flood
+
+Distributed denail of service attack (DDos): a Dos attack using multiple systems 
+

@@ -1,0 +1,6 @@
+injection attack: validate good data input
+    cross site scripting (xss): attacker can insert malicious code and target the 
+user of the service
+    sql injection: target the entire website if the website using sql database 
+
+    

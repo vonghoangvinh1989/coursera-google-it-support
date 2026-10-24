@@ -1,3 +1,11 @@
 A DNS Cache Poisoning attacks: works by tricking a DNS server into accepting a fake DNS
 record that will point you to a compromised DNS servers.
 
+Man in the middle attack: attack will monitor the information going to and from these
+hosts and potentially modify it in transit
+    + Session hijacking or cookie hijacking 
+    + Rogue AP: an access point tht is installed on the network without the network administrator's
+    knowledge
+    + Evil twin: same as rogue ap but the purpose is direct users to connect to the 
+    malicious network which is controlled by attacker
+
