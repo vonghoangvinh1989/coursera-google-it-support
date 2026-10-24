@@ -1,0 +1,27 @@
+malware: a type of malicious software that can be used to obtain your sensitive info,
+or delete or modify files
+
+    worms: similar to viruses, except that instead of having to attach themselves
+onto something to spread, worms can live on their own and spread through channels
+like the network
+
+    adware: software that displays advertisements and collects data 
+
+    trojan: malware disguises itself as one thing but does something else
+
+    spyware: malware that's meant to spy on you
+
+    keylogger: record every keystroke you make 
+
+    ransomware: a type of attack that holds your data or system hostage until
+you pay some sort of ransom 
+
+    botnet: utilize the power of the internet-connected machines to perform
+some distributed function 
+
+    backdoor: a way to get into a system if the other methods to getin the system
+aren't allowed
+
+    rootkit: collection of software or tools that an admin would used
+    
+    logic bomb: a type of malware that's intentionally installed

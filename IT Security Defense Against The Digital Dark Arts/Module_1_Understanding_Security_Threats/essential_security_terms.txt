@@ -1,0 +1,12 @@
+risk: possibility of suffering a loss in the event of an attack on the system 
+    someone access to phone and steal data: if not install screen lock on phone 
+
+vulnerability: a flaw in a system that could be exploited to compromise the system 
+    0-day vulnerability: not known to the software developer vendor, but is known to an attacker
+
+exploit: software that is used to take advantage of security bug or vulnerability 
+
+threat: possibility of danger that could exploit a vulnerability 
+
+attack: actual attempt to harm the system 
+

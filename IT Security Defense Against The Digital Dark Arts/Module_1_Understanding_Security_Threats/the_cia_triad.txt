@@ -1,0 +1,9 @@
+confidentiality
+    keep things hidden -> from unwanted eyes
+
+integrity
+    keep data accurate and untampered with
+
+availability
+    the info we have is readily accessible to those people that should have integrity
+

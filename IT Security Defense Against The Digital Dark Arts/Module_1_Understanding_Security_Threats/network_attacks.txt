@@ -1,0 +1,3 @@
+A DNS Cache Poisoning attacks: works by tricking a DNS server into accepting a fake DNS
+record that will point you to a compromised DNS servers.
+
