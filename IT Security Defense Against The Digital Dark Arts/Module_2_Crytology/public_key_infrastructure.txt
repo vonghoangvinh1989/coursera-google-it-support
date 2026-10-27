@@ -1,0 +1,8 @@
+PKI: is a system that defines the creation, storage and distribution of digital certificates
+
+Digital certificate: a file that proves that an entity owns a certain public key.
+    Info on public key 
+    Registered owner 
+    Digital Signature 
+
+    

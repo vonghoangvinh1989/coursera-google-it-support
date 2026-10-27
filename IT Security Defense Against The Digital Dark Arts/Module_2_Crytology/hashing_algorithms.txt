@@ -1,0 +1,14 @@
+SHA1 is part of the Secure Hash Algorithm suite of functions, desgined by the NSA, published
+in 1995
+    512 blocks, 160 bit hash digest
+        + TLS/SSL
+        + PGP SSH 
+        + IPsec
+        + Git
+
+    In early 2017, first full collision of SHA1 was published (CPU + GPU resources), 6500 years CPU / 110 years of single GPU
+
+Password salt
+    additional randomized data that's added into the hashing function to generate a hash
+that's unique to the password and salt combination 
+

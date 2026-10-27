@@ -1,0 +1,10 @@
+Symmetric Cryptography: use the same key for encryption and decryption
+    To avoid key reuse, initialization vector or IV is used (a bit of random data that integrated into the encryption key)
+
+Stream cipher
+    Takes a stream of input and encrypts the stream one character or one digit at a time, outputting one encrypted
+character or digit at a time 
+
+Block cipher
+    The cipher takes data in, places it into a bucket or block of data that's a fixed size, then encodes that entire
+block as one unit 
