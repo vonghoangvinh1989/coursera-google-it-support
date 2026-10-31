@@ -1,0 +1,10 @@
+VPN: a mechanism that allows you to remotely connect a host or network to an internal,
+private network, passing the data over public channel, like the internet
+
+The tunnel is provided by L2TP which permits the passing of unmodified packets from one 
+network to another
+
+The secure channel, on other hand, is provided by IPsec, which provides confidentiality,
+integrity, and authentication of data being passed
+
+

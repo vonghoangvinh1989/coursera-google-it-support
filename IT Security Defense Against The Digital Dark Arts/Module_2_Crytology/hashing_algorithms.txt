@@ -12,3 +12,4 @@ Password salt
     additional randomized data that's added into the hashing function to generate a hash
 that's unique to the password and salt combination 
 
+    Password + Salt --> Hash Function --> Salt + Hash Value

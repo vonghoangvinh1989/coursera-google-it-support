@@ -1,0 +1,20 @@
+https: secure version of http (http over ssl or tls) 
+    ssl 3.0 deprecating 2015
+
+TLS
+    a secure communication line, means data being transmitted is protected from potential
+eavesdroppers
+
+    the ability to authenticate both parties communicating, though typically only the server
+is authenticated by the client 
+
+    the integrity of communications, meaning there are checks to ensure that messages aren't 
+lost or altered in transit
+
+The session key: is the shared symmetric encryption key used in TLS sessions to encrypt data 
+being sent back and forth
+
+Pretty good privacy (PGP)
+    an encryption application that allows authentication of data, along with privacy 
+from third parties, relying upon asymmetric encryption to achieve this 
+
