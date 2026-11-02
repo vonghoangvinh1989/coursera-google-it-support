@@ -1,0 +1,9 @@
+Remote Attestation: is the idea of a system authenticating its software and hardware configuration
+to a remote system 
+    -> remote system to determine the integrity of the remote system 
+
+Data sealing: is similar to binding since data is encrypted using the hardware backed encryption
+key. 
+    -> in order for the data to be decrypted, the TPM must be in a specified state 
+
+
