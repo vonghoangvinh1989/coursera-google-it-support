@@ -1,0 +1,25 @@
+1) Generating keys 
+    openssl genrsa -out private_key.pem 2048 --> generate private key 
+    cat private_key.pem --> view private key 
+
+    openssl rsa -in private_key.pem -outform PEM -pubout -out public_key.pem --> generate public key 
+    cat public_key.pem --> view public key 
+
+2) Encrypting and decrypting 
+    echo 'This is a secret message, for authorized parties only' > secret.txt
+
+    openssl pkeyutl -encrypt -pubin -inkey public_key.pem -in secret.txt -out secret.enc --> encrypt the file 
+using public key, this will create 'secret.enc'
+
+    nano ~/secret.enc --> view content of encrypted file 
+
+    openssl pkeyutl -decrypt -inkey private_key.pem -in secret.enc --> decrypt the file 
+using private key 
+        --> "This is a secret message, for authorized parties only"
+
+3) Creating a hash digest
+    openssl dgst -sha256 -sign private_key.pem -out secret.txt.sha256 secret.txt --> 
+create a hash digest file called 'secret.txt.sha256' using private key 
+
+    openssl dgst -sha256 -verify public_key.pem -signature secret.txt.sha256 secret.txt --> 
+verify hash digest using public key, showing 'Verified OK'
